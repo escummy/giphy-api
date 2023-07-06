@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+  color: #eee;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.App-link {
+  color: #030303;
+}
+
+.App-link2 {
+  margin-bottom: 30px;
+  font-weight: lighter;
+  color: #474747;
+}
+
+a {
+  margin-bottom: 6px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #808080;
+}
+
+h4 {
+  color: #474747;
+}
