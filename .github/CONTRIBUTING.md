@@ -44,9 +44,9 @@ Commit and push changes to your branch until you are ready to ask for feedback.
 
 Create a pull request to ask collaborators for feedback on your changes, include a summary of the changes and what problem they solve.
 
---> Click on 'Compare & pull request'
-
---> Click on 'Create pull request' to serve the changes
+> --> Click on 'Compare & pull request'
+>
+> --> Click on 'Create pull request' to serve the changes
 
 <br>
 
@@ -76,7 +76,7 @@ Your experiences will benefit others who read and use these guides and following
 
 - Open Source Guides are released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
 
-Please ensure that your contribution passes all tests if you open a pull request. If there are test failures, you will need to address them before we can merge your contribution.
+> Please ensure that your contribution passes all tests if you open a pull request. If there are test failures, you will need to address them before we can merge your contribution.
 
 <br>
 
