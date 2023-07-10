@@ -14,7 +14,7 @@
 
  <!-- [![Build Status](https://travis-ci.org/escummy/dillinger.svg?branch=master)](https://travis-ci.org/escummy/dillinger) <img alt="Github workflows" src="https://github.com/thmsgbrt/thmsgbrt/workflows/README%20build/badge.svg"/> <img alt="Contributor Covenant v2.1" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"/> <img alt="License" src="https://img.shields.io/github/license/escummy/webpack-complete?style=flat-square&labelColor=343b41"/> -->
 
-> Showing GIF's and including index of crypto keywords using the api of giphy.com, created with react as framework and fetching your proper credentials that the official page provides when you're registered.
+> Connect your credentials provided in the official API documentation when you're registered to show your favorite GIF's, also protecting secret keys and sensitive information with environment variables.
 
 <br>
 
@@ -65,6 +65,18 @@ To continue, you need to have installed: `Node`
 Else, Install nodejs from the official site 'version LTS' (Recommended)
 
 [English] - https://nodejs.org/en/ (or) [Spanish] - https://nodejs.org/es/
+
+<br>
+
+## Environment variables
+
+Include in the root of your project the `.env` file with the credentials provided by the API official docuemntation, then replace in the proper file your real API key with `${REACT_APP_API_KEY}` to not expose sensitive data.
+
+```shell
+ REACT_APP_API_KEY=your_api_key
+```
+
+> **NOTE**: Include this .env file in the .gitignore to be excluded by the repository.
 
 <br>
 
