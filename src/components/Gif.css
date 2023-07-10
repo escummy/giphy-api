@@ -1,0 +1,30 @@
+.Gif {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  border: 1px ridge #595858;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #474747;
+}
+
+h6 {
+  margin: 20px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+small {
+  margin-bottom: 15px;
+  color: #585858;
+}
+
+img {
+  margin-bottom: 25px;
+  border-radius: 15px;
+  /* object-fit: contain; */
+}
+
